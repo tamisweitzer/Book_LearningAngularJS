@@ -1,0 +1,17 @@
+
+<div><b>Customer Name: </b> {{ customerName }}</div>
+<div><b>Customer Number: </b>{{ customerNumber }}</div>
+
+<form action="" class="form mt-2">
+  <div class="mb-2">
+    <input type="text" ng-model="cName"  class="form-control" placeholder="customer name" />
+  </div>
+
+  <div class="mb-2">
+    <input type="number" ng-model="cNumber" class="form-control" placeholder="customer number"/>
+  </div>
+
+  <div class="mb-2">
+    <button ng-click="changeCustomer();" class="btn">Change Customer</button>
+  </div>
+</form>
